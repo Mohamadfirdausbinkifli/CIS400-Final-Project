@@ -1,1 +1,1 @@
-web: gunicorn MainFile.py:MainFile.py
+web: gunicorn CIS400-Final-Project:MainFile.py
