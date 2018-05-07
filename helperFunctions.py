@@ -57,7 +57,7 @@ def currentDate():
 
 
 def getConnect():
-    '''MongoDB and mLab stuff | further use on line 69'''
+    '''MongoDB and mLab stuff'''
     #connecting to the MongoDB & mLab clients
     mongoClient = MongoClient('mongodb://SamAnsellMLab:Password123@ds215380.mlab.com:15380/sentiment_scores')
     #accessing the overarching database
